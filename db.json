@@ -1,68 +1,15 @@
-[
-  {
-    "charged": {
-      "currency": "string",
-      "value": 0
-    },
-    "collectedOn": "string",
-    "due": {
-      "currency": "string",
-      "value": 0
-    },
-    "dueOn": "string",
-    "from": "string",
-    "interest": {
-      "currency": "string",
-      "value": 0
-    },
-    "interestRate": 0,
-    "loanPartId": "string",
-    "loanPartSequenceNumber": 0,
-    "paidFromConstructionAccount": {
-      "currency": "string",
-      "value": 0
-    },
-    "paymentPeriods": [
-      {
-        "due": {
-          "currency": "string",
-          "value": 0
-        },
-        "from": "string",
-        "interest": {
-          "currency": "string",
-          "value": 0
-        },
-        "interestRate": 0,
-        "paidFromConstructionAccount": {
-          "currency": "string",
-          "value": 0
-        },
-        "previousTermBalance": {
-          "currency": "string",
-          "value": 0
-        },
-        "redemption": {
-          "currency": "string",
-          "value": 0
-        },
-        "remainingPrincipal": {
-          "currency": "string",
-          "value": 0
-        },
-        "to": "string"
-      }
-    ],
-    "paymentReference": "string",
-    "previousTermbalance": {
-      "currency": "string",
-      "value": 0
-    },
-    "redemption": {
-      "currency": "string",
-      "value": 0
-    },
-    "sequenceNumber": 0,
-    "to": "string"
+  
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-]
+}
