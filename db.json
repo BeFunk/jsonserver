@@ -1,5 +1,4 @@
-[
-  {
+{
     "charged": {
       "currency": "string",
       "value": 0
@@ -64,5 +63,4 @@
     },
     "sequenceNumber": 0,
     "to": "string"
-  }
-]
+}
